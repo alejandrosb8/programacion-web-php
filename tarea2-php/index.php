@@ -12,7 +12,7 @@
 <body>
     <main class="container">
         <form action="procesar.php" method="post">
-            Ingrese el número de tarjetas: <input type="text" name="numero"><br>
+            Ingrese el número de tarjetas: <input type="number" require min="1" name="numero"><br>
             <input type="submit" value="Enviar">
         </form>
     </main>
